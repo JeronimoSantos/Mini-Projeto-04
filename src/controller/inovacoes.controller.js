@@ -1,4 +1,4 @@
-import { data } from "../data/db";
+import { data } from "../data/db.js";
 import { Inovacoes } from "../model/inovacoes.model.js";
 
 export function getInovacoes (req, res) {

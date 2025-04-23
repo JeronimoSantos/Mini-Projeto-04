@@ -1,4 +1,4 @@
-import { data } from "../data/db";
+import { data } from "../data/db.js";
 import { ComoAjudar } from "../model/comoAjudar.model.js";
 
 export function getComoAjudar (req, res) {
