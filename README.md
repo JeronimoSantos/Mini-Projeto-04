@@ -4,6 +4,17 @@ Nesse mini projeto fui desafiado a desenvolver uma API RESTful que tive-se utili
 
 Desenvolvimento de uma API com três rotas GET com funcionalidades diferentes, com uma organização utilizando a arquitetura MVC( Model View e Controller ), boas práticas com JavaScript, desenvolvimento de banco de dados mocado, utilização de bibliotecas nodemon e express.
 
+## Problematização
+Apesar de te um enorme potencial, enfrenta diversos desafios para sua ampla adoção e desenvolvimento pleno. Alguns deles são a Falta de Conscientização e Educação, Falta de Compreensão do Potencial e Informalidade.
+
+## Solução Encontrada
+Pensando nisso, resolvi desenvolver essa api que consegui:
+- listar inovações e seus setores
+- mostrar startups sustentáveis e seus sites
+- e exibi como podemos apoia com pequenas atitudes
+
+Assim conseguindo divulgar mais sobre as vantagens e benefícios da utilização da tecnologia mais voltada na natureza, pensando tanto no curto prazo como para as próximas gerações.
+
 ## 📤 Last Update
 Versão 1.0 | Versão Estável.
 
