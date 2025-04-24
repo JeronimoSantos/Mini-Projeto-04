@@ -1,5 +1,7 @@
-//
+// DEFININDO BANCO DE DADOS MOCADO
 export const data = {
+
+// DADOS DA ROTA INOVACOES - NOME, DESCRICAO E BENEFICIO
   inovacoes: [
     {
       nome: "Telhado Verde",
@@ -28,6 +30,7 @@ export const data = {
     }
   ],
 
+// DADOS DA ROTA STARTUPS - NOME, ATUACAO E SITE
   startups: [
     {
       nome: "Re-ciclo",
@@ -56,6 +59,7 @@ export const data = {
     }
   ],
 
+// DADOS DA ROTA COMOAJUDAR - ACAO E PLATAFORMA
   comoAjudar: [
     {
       acao: "Apoiar projetos de financiamento coletivo sustentáveis.",
