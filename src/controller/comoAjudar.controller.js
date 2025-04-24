@@ -1,6 +1,7 @@
+// IMPORTANDO BANCO DE DADOS
 import { data } from "../data/db.js";
-import { ComoAjudar } from "../model/comoAjudar.model.js";
 
+// TRANSFORMANDO E EXPORTANDO DADOS EM JSON
 export function getComoAjudar (req, res) {
     res.status(200).json(data.comoAjudar);
 }
