@@ -7,6 +7,7 @@ import startups from './routes/startups.route.js';
 import comoAjudar from './routes/comoAjudar.route.js';
 
 // INICIALIZANDO APP
+app.use(cors());
 const app = express();
 
 // DEFININDO PORTA NO SERVIDOR IRÁ RODAR
