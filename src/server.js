@@ -11,16 +11,18 @@ import comoAjudar from './routes/comoAjudar.route.js';
 const app = express();
 
 //
-app.use(cors, {
-origin: '*'
-});
+app.use(cors());
 
 // DEFININDO MIDDLEWARES
 app.use(express.json());
 
 // DEFININDO ENDPOINTS BASE DAS ROTAS
 app.use("/api", inovacoes);
-app.use("/startups", startups);
-app.use("/comoAjudar", comoAjudar);
+app.use("/api", startups);
+app.use("/api", comoAjudar);
+
+app.get("/api", (req, res) => {
+  res.send("API Raiz está funcionando!");
+});
 
 export default app;
