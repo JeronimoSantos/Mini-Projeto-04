@@ -53,7 +53,7 @@ node server.js
 ## ➡ Endpoints da API
 
 ### Lista de Inovações Sustentáveis
-- **Endpoint** `/inovacoes/inovacoesSustentaveis`
+- **Endpoint** `/api/inovacoesSustentaveis`
 - **Método HTTP** GET
 - **Descrição** Exibi uma lista com todas as inovaçoes da API.
 
@@ -73,7 +73,7 @@ node server.js
 #
 
 ### Exibir Startups e Sites Sustentáveis
-- **Endpoint** `/startups/startupsEcologicas`
+- **Endpoint** `/api/startupsEcologicas`
 - **Método HTTP** GET
 - **Descrição** Exibir startups e sites com suas áreas de atuação.
 
@@ -93,7 +93,7 @@ node server.js
 #
 
 ### Formas de Apoiar 
-- **Endpoint** `/comoAjudar/apoio`
+- **Endpoint** `/api/apoio`
 - **Método HTTP** GET
 - **Descrição** Mostra formas de ajudar com pequenas atitudes.
 
